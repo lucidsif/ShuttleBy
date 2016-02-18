@@ -428,9 +428,9 @@ there.
 /* Header
 ----------------------------------------------------- */
 body> header {
-    background: url('../images/header.jpg') top center no-repeat;
+    background: url('../images/headerf.png') top center no-repeat;
     background-size: cover;
-    min-height: 680px;
+    min-height: 730px;
     width: 100%;
 }
 .logo {
@@ -507,17 +507,17 @@ img {
 /*Pricing
 ----------------------------------------------------- */
 .pricing {
-    background:#009be8;
+    background:#ffffff;
     padding:4em 0;
     text-align: center;
 }
 .pricing h2 {
-  color:#fff;
+  color:#000000;
   font-weight:300;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
  }
  .pricing p {
-  color:#fff;
+  color:#000000;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   font-size:1.2em;
  }
@@ -615,7 +615,7 @@ img {
  }
 /* Action */
 .action .row {
-margin-top: 3em;
+margin-top: 0.02em;
     }
 .action{
     background: url('../images/action.jpg') top center no-repeat;
@@ -637,7 +637,7 @@ margin-top: 3em;
 /* Footer 
 ------------------------------------------------------ */
 footer {
-    background:#009be8;
+    background:#ffffff;
     padding: 1em 0;
 }
 footer nav ul li {
@@ -645,7 +645,7 @@ footer nav ul li {
     margin: 0;
 }
 footer nav ul li a{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     text-transform: uppercase;
     margin: 0 1em 0 0;
@@ -656,7 +656,7 @@ footer img {
     top: -0.3em
 }
 footer p {
-    color: #fff;
+    color: #000000;
     line-height: 1;
     text-transform: uppercase;
     font-size: 0.7em;
