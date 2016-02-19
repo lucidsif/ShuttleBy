@@ -433,11 +433,12 @@ body> header {
     min-height: 730px;
     width: 100%;
 }
-.logo {
+.logo img {
     margin-top: 0.7em;
-    width:15%;
-    position: absolute;
-    left: -12%;
+    width:100%;
+    height: auto/9;
+    position: relative:
+        left:;
 }
 header nav {
     text-align: right;
