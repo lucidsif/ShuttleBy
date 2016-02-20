@@ -432,7 +432,7 @@ body> header {
     background: url('../images/headerf.png') top center no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 550px;
+    min-height: 575px;
 }
 .logo img {
     margin-top: 0.7em;
@@ -443,7 +443,7 @@ body> header {
 
 /* iphone 6 Plus*/
 @media only screen 
-    and (min-device-width : 400px)  {
+    and (min-device-width : 410px)  {
     
 .logo img{
     width:20%;
@@ -482,15 +482,15 @@ header .headertext {
 header h1 {
     color: #fff;
     font-weight: 300;
-    font-size:1.5em;
-    line-height;1;
+    font-size:1.75em;
+    line-height:2.3em;
     text-shadow: 0 1px 2px rgba(0,0,0,.2);
     margin-bottom: 0.3em;
     white-space: nowrap;
 }
 header p {
   color:#d5d5d5;
-  font-size:.8em;
+  font-size:.9em;
   line-height: 1.5;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   margin-bottom: 1.2em;
@@ -505,10 +505,8 @@ header p {
         }
     #smallbtn2 {
         width: 20em;
-        height: 1em ;
-        font-size: 0.01em;
-        padding-bottom: 4em;
-        padding-left: 2em;            
+        height: 40% ;
+        font-size: .1em;          
         }      
 }
 /* Action */
