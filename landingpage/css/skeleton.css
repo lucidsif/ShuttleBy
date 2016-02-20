@@ -417,7 +417,8 @@ there.
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
@@ -430,20 +431,28 @@ there.
 body> header {
     background: url('../images/headerf.png') top center no-repeat;
     background-size: cover;
-    min-height: 730px;
     width: 100%;
+    min-height: 500px;
 }
 .logo img {
     margin-top: 0.7em;
-    width:100%;
+    width:77%;
     height: auto/9;
-    position: relative:
-        left:;
+    float: left
 }
+
+/* iphone 6 Plus*/
+@media only screen 
+    and (min-device-width : 400px)  {
+    
+.logo img{
+    width:80%;
+    margin-left:-3em; }
 header nav {
     text-align: right;
-    margin-top: 2em;
-}
+    margin-top: 1em;
+    margin-right: -3em;
+    }
 header nav ul li{
     display: inline-block; 
 }
@@ -451,7 +460,7 @@ header nav ul li a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 0.75em, 2em
+    padding: 0.75em, 2em;
 }
 header nav ul li a.button{
     moz-border-radius:4px;
@@ -459,19 +468,20 @@ header nav ul li a.button{
     border-radius:4px; /* border radius */
     border:2px solid #fff;
     }
+}
 header nav ul li a.button:hover {
     background:#fff;
     color: #color:#009be8;
 }
 header .headertext {
-    margin-top: 10em;
+    margin-top: 5em;
     animation-delay: 0.7s;
     -webkit-animation-delay: 0.7s; /* Chrome and Safari */
 }
 header h1 {
     color: #fff;
     font-weight: 300;
-    font-size:4em;
+    font-size:1.7em;
     line-height;1;
     text-shadow: 0 1px 2px rgba(0,0,0,.2);
     margin-bottom: 0.3em;
@@ -479,7 +489,7 @@ header h1 {
 }
 header p {
   color:#d5d5d5;
-  font-size:1.33em;
+  font-size:0.56em;
   line-height: 1.5;
   text-shadow: 0 1px 2px rgba(0,0,0,.2);
   margin-bottom: 1.2em;
@@ -495,7 +505,7 @@ margin-top: 0.02em;
 .action{
     background: url('../images/action.jpg') top center no-repeat;
     background-size:cover;
-    min-height: 180px;
+    min-height: auto;
     width:100%;
     padding:4em 0; 
 }
@@ -528,7 +538,9 @@ footer nav ul li a{
 }
 footer img {
     position:relative; right: -7.5em;
-    top: -0.3em
+    top: -0.3em;
+    height: auto;
+    width:auto;
 }
 footer p {
     color: #000000;
